@@ -23,5 +23,45 @@ public class Main {
       System.out.println(pi >= 3.14); // true
       System.out.println(pi <= 10); // true
 
+      // IF STATEMENTS
+      boolean isCold = true;
+      if (isCold == true) {
+         System.out.println("Bring a Jacket!");
+      }
+      System.out.println("Enjoy your walk!");
+
+      // Magic 8 Ball Mini Program
+      System.out.println("8 BALL");
+      // 1. Generate random integer between 1-8
+      double numberDoub = Math.random() * 8 + 1; // adjust the output range
+      int numberInt = (int) numberDoub; // CASTING types
+
+      // 2. Use that number in 8 if statements to print a different response
+      if (numberInt == 1) {
+         System.out.println("Yes totally!");
+      }
+      if (numberInt == 2) {
+         System.out.println("No...");
+      }
+      if (numberInt == 3) {
+         System.out.println("Maybe!");
+      }
+      if (numberInt == 4) {
+         System.out.println("Ummm idk");
+      }
+      if (numberInt == 5) {
+         System.out.println("Wait and see.");
+      }
+      if (numberInt == 6) {
+         System.out.println("Come back later!");
+      }
+      if (numberInt == 7) {
+         System.out.println("Ew loser");
+      }
+      if (numberInt == 8) {
+         System.out.println("Go ask a real person");
+      }
+
+
    }
 }
