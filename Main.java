@@ -36,6 +36,7 @@ public class Main {
       double numberDoub = Math.random() * 8 + 1; // adjust the output range
       int numberInt = (int) numberDoub; // CASTING types
 
+      {
       // 2. Use that number in 8 if statements to print a different response
       if (numberInt == 1) {
          System.out.println("Yes totally!");
@@ -61,6 +62,21 @@ public class Main {
       if (numberInt == 8) {
          System.out.println("Go ask a real person");
       }
+   }
+
+      // TWO WAY SELECTION: IF block coupled with an ELSE block
+      // is like "if this is true, do something", OTHERWISE, "do something else"
+      int myAge = 16;
+      // BOOLEAN EXPRESSION here is "myAge >= 17"
+      if (myAge >= 17) {
+         System.out.println("You can get your license in NY!");
+      }
+      // else is coupled with the if statement above
+      // so you do NOT need to specify a CONDITION/EXPRESSION
+      else {
+         System.out.println("You're too young to drive in NY!");
+      }
+
 
 
    }
