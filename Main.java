@@ -77,6 +77,25 @@ public class Main {
          System.out.println("You're too young to drive in NY!");
       }
 
+      // MULTI-WAY SELECTION
+      System.out.println("What type of costume are you thinking of? (Scary, cute, funny, other)");
+      String choice = "scary";
+      // Always start a "decision" with an IF statement
+      if (choice.equals("scary")) {
+         System.out.println("You should be a FINAL EXAM!");
+      }
+      else if (choice.equals("cute")) {
+         System.out.println("You should be a PRINCESS!");
+      }
+      else if (choice.equals("funny")) {
+         System.out.println("You should be PITBULL!");
+      }
+      // Provide a "catch-all" choice in case earlier conditions are not met
+      else {
+         System.out.println("Look on Pinterest!");
+      }
+      
+
 
 
    }
